@@ -1,0 +1,402 @@
+body { font-family: 'Lato', sans-serif;  }
+
+.row {
+    margin-right: 0px; 
+    margin-left: 0px;
+}
+
+h2 { font-family: 'Lato', sans-serif; }
+
+header {
+    background: url(../image/large.jpg);
+    background-size: cover;
+}
+
+.transparent {
+	background: rgba(0,0,0,0.4);
+}
+
+nav {
+	padding: 4% 3%;
+}
+
+nav img {
+	background: transparent;
+	width: 70%;
+}
+
+nav ul {
+	text-align: right;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 5%;
+}
+
+nav a {
+	font-size: 21px;
+	color: white;
+}
+
+.intro { 
+	text-align: center;
+	color: white;
+	font-size: 47px;
+	padding: 9% 25%;
+	line-height: 1;
+}
+
+.prueba {
+	color: white;
+	padding: 1% 25%;
+	background: rgba(82, 141, 210, 0.6);
+}
+
+.btn-pruebag { 
+    padding: 2%;
+    margin: 10% 3%;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+    display: block;
+    width: 250px;
+    text-align: center;
+}
+
+.btn-pruebag:hover { text-decoration: none; }
+
+.prueba h2 {
+	margin-top: 25px;
+}
+
+.prueba p {
+	font-size: 19px;
+}
+
+.servicios {
+	padding: 6% 3% 3% 3%;
+	margin-bottom: 70px;
+}
+
+#servicios h2{
+	text-align: center;
+	color: #58A5FF;
+	font-size: 42px;
+	font-weight: 300;
+}
+
+#servicios i {
+    font-size: 42px;
+    padding: 12%;
+    margin: 10% auto 7% auto;
+    color: #58A5FF;
+    border-radius: 100%;
+    background: white;
+    box-shadow: 5px 7px 25px rgba(136, 136, 136, 0.34);
+    display: table;
+}
+
+#servicios h4 {
+    color: #0F3F6D;
+    font-size: 25px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+#servicios p {
+	font-size: 17px;
+    text-align: center;
+    padding: 0% 13%;
+    margin: 7% 0%;
+}
+
+.separador {
+    margin: 0% auto;
+    display: block;
+    position: relative;
+    bottom: 73px;
+}
+
+#ejemplo {
+	padding: 3% 5%;
+}
+
+#ejemplo h2 { 
+	font-size: 42px;
+	font-weight: 300;
+	color: #58A5FF; 
+	padding: 3% 5%;
+}
+
+#ejemplo p {
+	font-size: 16px;
+	padding: 0% 6%;
+}
+
+.logo { 
+	width: 60%; 
+}
+
+.blue {
+	color: #0F3F6D;
+	font-size: 15px; 
+}
+
+.flecha {
+	width: 7%;
+	margin: 5% auto;
+	display: block;
+}
+
+.img-video { 
+	width: 100%; 
+}
+
+.pasos {
+	padding: 3% 1%;
+}
+
+.pasos-img {
+	background: url(../image/sec-2.jpg);
+	background-size: cover;
+	width: 48%;
+	padding-left: 0%;
+}
+
+.transparent-pasos {
+	padding: 11.6% 0%;
+	background: rgba(0,0,0,0.4);
+}
+
+.pasos i {
+    height: 60px;
+    width: 60px;
+    padding: 2%;
+    font-size: 30px;
+    background: #58A5FF;
+    border-radius: 100%;
+    color: white;
+    display: block;
+    margin-left: 96%;
+}
+
+.icon-pencil {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+.icon-tools-2 {
+	margin-bottom: 130px;
+}
+
+.separador-pasos {
+	position: absolute;
+    top: 500px;
+    right: -45px;
+}
+
+.pasos h2 { 
+	font-size: 42px;
+	font-weight: 300;
+	color: #0F3F6D; 
+	padding: 3% 5%;
+	margin-top: 0%;
+}
+
+.pasos h5 {
+	font-size: 25px;
+	font-weight: 300;
+	color: #58A5FF; 
+	padding: 1% 5%;
+}
+
+.pasos p {
+	font-size: 16px;
+    padding: 0% 5%
+}
+
+.pasos ul {
+	font-size: 16px;
+	padding: 0% 8%;
+}
+
+.col-md-6 {
+	padding-right: 0%;
+}
+
+.hr-top {
+	margin-top: 0%;
+}
+
+.hr-bottom {
+	margin-top: 45px;
+}
+
+.banner { width: 100%; }
+
+.porque-usar {
+	padding: 3% 5%;
+}
+
+#porque-usar h2 {
+	font-size: 42px;
+	font-weight: 300;
+	color: #58A5FF; 
+	padding: 3% 5%;
+}
+
+#porque-usar p { 
+	font-size: 16px;
+	padding: 0% 5%;
+	line-height: 1.5;
+}
+
+#porque-usar ul {
+	font-size: 16px;
+	padding: 0% 8%;
+}
+
+.blue-usar {
+	color: #0F3F6D;
+	font-size: 16px;
+}
+
+.logo-usar {
+	width: 58%;
+}
+
+.prueba-blue {
+    background: #74A3DB;
+    color: white;
+    padding: 2% 14%;
+}
+
+.prueba-blue .btn-pruebag {
+	margin: 5% 0%;
+	float: right;
+}
+
+footer {
+	background: #2A3541;
+	color: white;
+	padding: 2% 3%;
+	font-size: 16px;
+}
+
+.azul {
+	color: #74A3DB;
+}
+
+footer i {
+	color: #74A3DB;
+	font-size: 35px;
+	margin:  0% 1% 3% 1%;
+	display: inline-block;
+}
+
+.contactanos {
+	background: url(../image/large.jpg);
+	padding: 13.5% 28%;
+}
+
+.cabecera {
+	background: #74A3DB;
+	padding: 1%;
+}
+
+.formulario {
+	background: white;
+	padding: 3% 10%;
+	font-size: 19px;
+}
+
+.formulario h3 {
+	font-size: 30px;
+	padding-bottom: 3%;
+	margin-bottom: 5%;
+	border-bottom: 2px solid;
+	color: #0F3F6D;
+}
+
+input {
+	width: 350px;
+	margin: 3% 3%;
+}
+
+textarea {
+	width: 350px;
+	margin: 3% 3%;
+}
+
+.enviar {
+	width: 150px;
+	background: #74A3DB;
+	color: white;
+	text-align: center;
+	margin: 0% 4%;
+	border: none;
+}
+
+.piedepagina {
+	background: #74A3DB;
+	color: white;
+	font-size: 13px;
+	padding: 1% 2%; 
+}
+
+.pdp {
+	display: inline-block;
+}
+
+.derecha { 
+   float: right;
+}
+
+
+@media screen and (max-width: 600px) { 
+	.intro {
+		padding: 1%;
+	}
+
+	.prueba {
+		text-align: center;
+		padding: 1%;
+	}
+
+	nav ul { 
+	    text-align: center;
+	}
+
+	.separador-pasos {
+		display: none;
+	}
+
+	.pasos i  {
+		display: none;
+	}
+
+	.pasos-img {
+		width: 100%;
+		height: 200px;
+	}
+
+	.contactanos {
+		padding: 18% 1%;
+	}
+
+	.formulario {
+		width: 100%;
+	}
+
+	input {
+		width: 150px;
+	}
+
+	textarea {
+		width: 150px;
+	}
+}
